@@ -1,6 +1,12 @@
 Acá ponmemos informacion para La Page.
 
+json:
+
+https://json.org/json-es.html
+
 Soap:
 
 https://desarrolloweb.com/articulos/1557.php
 https://docs.oracle.com/cd/A97335_02/integrate.102/a90297/overview.htm
+
+https://docs.oracle.com/cd/A97335_02/integrate.102/a90297/overview.htm#1007696
