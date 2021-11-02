@@ -21,6 +21,7 @@
 }
 body{
     background-image: url(../imagenes/laptop-g5e84b279a_1920.jpg);
+    background-repeat: no-repeat;
 }
 .container{
     
