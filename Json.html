@@ -1,69 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet"  href="css/style1.css">
-    <title>XML</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style1.css" />
+  <title>Json</title>
 </head>
 <div class="caja">
-<body>
+
+  <body>
     <header>
-    <nav class="nav_hero">
+      <nav class="nav_hero">
         <nav class="nav_hero">
-            <div class="container nav_container">
-                <div class="logo">
-                    <img src="imagenes/archivo-xml.png">
-                    <h2 class="logo_name">Exposición XML, JSON Y SOAP<span class="point">.</span> </h2>
-                </div>
-                <div class="links">
-                    <li><a href="index.html" class="link">Inicio</a></li>
-                    <li><a href="Xml.html" class="link">Que es Xml?</a></li>
-                    <li><a href="Json.html" class="link">Que es JSON?</a></li>
-                    <li><a href="SOAP.html" class="link">Que es SOAP?</a></li>
-                    <li><a href="" class="link">Ejemplos</a></li>
-                </div>
+          <div class="container nav_container">
+            <div class="logo">
+              <img src="imagenes/archivo-xml.png" />
+              <h2 class="logo_name">
+                Exposición XML, JSON Y SOAP<span class="point">.</span>
+              </h2>
             </div>
-        </nav>       
-    </nav>
+            <div class="links">
+              <li><a href="index.html" class="link">Inicio</a></li>
+              <li><a href="Xml.html" class="link">Que es Xml?</a></li>
+              <li><a href="Json.html" class="link">Que es JSON?</a></li>
+              <li><a href="SOAP.html" class="link">Que es SOAP?</a></li>
+
+            </div>
+          </div>
+        </nav>
+      </nav>
     </header>
     <main class="hero">
-        <div class="menu">
-            <div class="container menu_container">
-                <div class="menus">
+      <div class="menu">
+        <div class="container menu_container">
+          <div class="menus">
+            <li><a href="Xml.html" class="lmenu">XML</a></li>
+            <li><a href="Json.html" class="lmenu">JSON</a></li>
+            <li><a href="SOAP.html" class="lmenu">SOAP</a></li>
+          </div>
+        </div>
+      </div>
 
-                    <li><a href="Xml.html" class="lmenu">XML</a></li>
-                    <li><a href="Json.html" class="lmenu">JSON</a></li>
-                    <li><a href="SOAP.html" class="lmenu">SOAP</a></li>
+      <h4>Json</h4>
+      <section class="registro">
+        <img src="imagenes/macbook-gd8aa84215_640.jpg" alt="" />
+        <div class="caja1">
+          <h3>Que es Json?</h3>
+          <p>
+            JSON (JavaScript Object Notation - Notación de Objetos de
+            JavaScript ) es un formato ligero de intercambio de datos. Leerlo
+            y escribirlo es simple para humanos, mientras que para las
+            máquinas es simple interpretarlo y generarlo. Está basado en un
+            subconjunto del Lenguaje de Programación JavaScript, Standard
+            ECMA-262 3rd Edition - Diciembre 1999. JSON es un formato de texto
+            que es completamente independiente del lenguaje pero utiliza
+            convenciones que son ampliamente conocidos por los programadores
+            de la familia de lenguajes C, incluyendo C, C++, C#, Java,
+            JavaScript, Perl, Python, y muchos otros. Estas propiedades hacen
+            que JSON sea un lenguaje ideal para el intercambio de datos.
+          </p>
+          <p>JSON está constituído por dos estructuras:</p>
 
-                </div>
+          <p>
+            Una colección de pares de nombre/valor. En varios lenguajes esto
+            es conocido como un objeto, registro, estructura, diccionario,
+            tabla hash, lista de claves o un arreglo asociativo. Una lista
+            ordenada de valores. En la mayoría de loslenguajes, esto se
+            implementa como arreglos,vectores, listas o sequencias.
+          </p>
 
-            </div>
+          <a href="https://json.org/json-es.html">https://json.org/json-es.html</a>
+        </div>
+      </section>
+
+      <section class="registro video">
+        <div class="caja1">
+          <h3>¿Para qué se utiliza un archivo JSON?</h3>
+          <p>Volviendo a la pregunta inicial de qué es json; JSON es un formato que almacena información estructurada y
+            se utiliza principalmente para transferir datos entre un servidor y un cliente.</p>
+          <p>El archivo es básicamente una alternativa más simple y liviana al XML (Lenguaje de marcado extenso, por sus
+            siglas en inglés) que cuenta con funciones similares.</p>
+          <p>Los desarrolladores usan JSON para trabajar con AJAX (JavaScript asíncrono y XML, por sus siglas en
+            inglés). Estos formatos funcionan bien juntos para lograr la carga asincrónica de los datos almacenados, lo
+            que significa que un sitio web puede actualizar su información sin actualizar la página.</p>
+          <p>Este proceso es más fácil de hacer con JSON que con XML/RSS. Y hoy, como muchos sitios web están adoptando
+            AJAX, el archivo .json se ha vuelto muy popular.</p>
+          <p>Además, permite a los usuarios solicitar datos de un dominio diferente con un método llamado JSONP mediante
+            la aplicación de etiquetas De lo contrario, no puedes transferir dominios cruzados de datos debido a la
+            política “mismo - origen” (same - origin).</p>
+
+        </div>
+        <div class="caja1">
+          <h3>Sintaxis</h3>
+          <p>Hay dos elementos centrales en un objeto JSON: claves (Keys) y valores (Values).</p>
+          <p> - Las Keys deben ser cadenas de caracteres (strings). Como su nombre en español lo indica, estas contienen
+            una secuencia de caracteres rodeados de comillas.
+          </p>
+          <p> - Los Values son un tipo de datos JSON válido. Puede tener la forma de un arreglo (array), objeto, cadena
+            (string), booleano, número o nulo.</p>
+
+          <p>Un objeto JSON comienza y termina con llaves {}. Puede tener dos o más pares de claves/valor dentro, con
+            una coma para separarlos. Así mismo, cada key es seguida por dos puntos para distinguirla del valor.</p>
         </div>
 
-        <h4>Json</h4>
-        <section class="registro">
-                <img src="imagenes/macbook-gd8aa84215_640.jpg" alt="">  
-                    <div class="caja1">
-                        <h3>Que es Json?</h3>
-                        <p>JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. Está basado en un subconjunto del Lenguaje de Programación JavaScript, Standard ECMA-262 3rd Edition - Diciembre 1999. JSON es un formato de texto que es completamente independiente del lenguaje pero utiliza convenciones que son ampliamente conocidos por los programadores de la familia de lenguajes C, incluyendo C, C++, C#, Java, JavaScript, Perl, Python, y muchos otros. Estas propiedades hacen que JSON sea un lenguaje ideal para el intercambio de datos.</p>
-                        <p>JSON está constituído por dos estructuras:</p>
+      </section>
+      <section class="registro video">
 
-                        <p>Una colección de pares de nombre/valor. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de claves o un arreglo asociativo.
-                        Una lista ordenada de valores. En la mayoría de loslenguajes, esto se implementa como arreglos,vectores, listas o sequencias.</p>
-                        
-                    
-                    </div>    
-                
-                
-                
-        </section>
-    
 
+        <iframe width="860" height="515" src="https://www.youtube.com/embed/FnW_WeBlCMk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+      </section>
     </main>
-    
-</body>
+  </body>
 </div>
-</html>    
+
+</html>
