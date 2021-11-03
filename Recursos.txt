@@ -13,8 +13,3 @@ https://docs.oracle.com/cd/A97335_02/integrate.102/a90297/overview.htm#1007696
 
 xml:
 https://rockcontent.com/es/blog/que-es-xml/
-
-
-
-https://fp.josedomingo.org/lmgs/u04/
-

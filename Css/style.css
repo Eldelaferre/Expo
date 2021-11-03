@@ -118,7 +118,6 @@ body{
     height: 600PX;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 0;
     
 
@@ -131,11 +130,7 @@ li{
 }
 
 .hero_textos{
-    text-align: center;
     width: 80%;
-    background-color: rgba(0, 0, 0, 0.685);
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .title_active{
