@@ -1,141 +1,130 @@
-:root{
-    --gold:#f4bd76;
-    --gold2: #f6cd8f;
-    --gray: #ffffff80;
-    --gray2: #f7d9d990;
-    --black1: #1a1b1f;
-    --black2: #30553b;
-    --shadow: 0 8px 8px;
-    --color_shadow:#00000033;
-
-
+:root {
+  --gold: #f4bd76;
+  --gold2: #f6cd8f;
+  --gray: #ffffff80;
+  --gray2: #f7d9d990;
+  --black1: #1a1b1f;
+  --black2: #30553b;
+  --shadow: 0 8px 8px;
+  --color_shadow: #00000033;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: url(../imagenes/laptop-g5e84b279a_1920.jpg);
-    background-repeat: no-repeat;
+body {
+  background-image: url(../imagenes/laptop-g5e84b279a_1920.jpg);
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
-.container{
-    
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 100px 0;
-    height: auto;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0;
+  height: auto;
 }
-.container--modifer{
-    width: 60%;
-
+.container--modifer {
+  width: 60%;
 }
-.hero{
-    width: 100%;
-    min-height: 100vh;
-    /*background: linear-gradient(180deg,#30353b 0%,#1a1b1f 100%);*/
-    
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  /*background: linear-gradient(180deg,#30353b 0%,#1a1b1f 100%);*/
 }
-.nav_hero{
-    background-color: rgb(12, 12, 12,0.8);
-    color: #fff;
-    height: 70px;
-    border-bottom:1px solid rgba(255,255,255,0.9);
-
+.nav_hero {
+  background-color: rgb(12, 12, 12, 0.8);
+  color: #fff;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
 }
-.nav_container{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: inherit;
-        padding: 0;
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: inherit;
+  padding: 0;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    
+.logo {
+  display: flex;
+  align-items: center;
 }
-.logo_name{
-    margin-left: 15px;
-    color: #fff;
-    font-size: 20px;
-
+.logo_name {
+  margin-left: 15px;
+  color: #fff;
+  font-size: 20px;
 }
 
-.link{
-    display: inline-block;
-    color: #FFF;
-    text-decoration: none;
-    font-weight: 300;
-    padding: 10px;
-    font-size:18px;
-
+.link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 18px;
 }
-.link--active{
-    color:#000;
-    font-weight: 700;
+.link--active {
+  color: #000;
+  font-weight: 700;
 }
-.point{
-    color: var(--gold);
+.point {
+  color: var(--gold);
 }
-.menu_container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: inherit;
-    padding: 0;
-}
-
-.menu{
-    
-    background-color: rgb(12, 12, 12,0.8);
-    color: #fff;
-    height: 70px;
-    border-bottom:1px solid rgba(255,255,255,0.8);
-    
-    
-}
-.menus{
-    width: 100%;
-    text-align: center;
-}
-.lmenu{
-    background-color: rgba(54, 53, 53, 0.5);
-    display: inline-block;
-    color: #FFF;
-    text-decoration: none;
-    font-weight: 300;
-    padding: 10px;
-    font-size:21px;
-    box-shadow: var(--shadow) var(--color_shadow);
-    border-radius: 6px; 
-    width: 195px;
-}
-.hero_main{
-    height: 600PX;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    
-
-
-}
-li{
-        
-    margin-top: 5px;
-    display: inline;
+.menu_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  padding: 0;
 }
 
-.hero_textos{
-    width: 80%;
+.menu {
+  background-color: rgb(12, 12, 12, 0.8);
+  color: #fff;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+.menus {
+  width: 100%;
+  text-align: center;
+}
+.lmenu {
+  background-color: rgba(54, 53, 53, 0.5);
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 21px;
+  box-shadow: var(--shadow) var(--color_shadow);
+  border-radius: 6px;
+  width: 195px;
+}
+.hero_main {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+}
+li {
+  margin-top: 5px;
+  display: inline;
 }
 
-.title_active{
-    color: rgb(248, 247, 247);
-    font-weight: 700;
-    font-size: 100px;
+.hero_textos {
+  text-align: center;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.685);
+  padding: 20px;
+  border-radius: 10px;
 }
 
+.title_active {
+  color: rgb(248, 247, 247);
+  font-weight: 700;
+  font-size: 100px;
+}
