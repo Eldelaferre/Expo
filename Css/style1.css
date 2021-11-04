@@ -124,11 +124,15 @@ li {
   font-weight: 700;
   font-size: 100px;
 }
+h2{
+  text-align: center;
+  font-size: 54px;
+}
 .registro {
-  width: 1300px;
-  height: 650px;
+  width: 96%;
+  
   background-color: rgba(94, 91, 91, 0.5);
-  padding: 5px;
+  padding: 15px;
   margin: auto;
   margin-top: 18px;
   border-radius: 4px;
@@ -144,20 +148,16 @@ li {
   align-items: center;
 }
 
-h4 {
-  margin-top: 20px;
-  color: #fff;
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-.registro p {
+
+p {
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
 }
 h3 {
-  margin-left: 150px;
+  width: 100%;
+  
+  text-align: center;
   font-size: 35px;
   line-height: 40px;
 }
@@ -179,4 +179,50 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.caja2{
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 10px;
+}
+
+.registro1{
+  width: 96%;
+  
+  background-color: rgba(94, 91, 91, 0.5);
+  padding: 15px;
+  margin: auto;
+  margin-top: 18px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: rgb(241, 227, 227);
+  box-shadow: 7px 13px 37px #000;
+  display: flex;
+  justify-content: center;
+}
+
+article{
+  
+  width: 95%;
+  
+}
+article h4{
+  width: 100%;
+  font-size: 25px;
+  text-align: left;
+  padding: 5px;
+}
+p{
+  padding: 5px;
+}
+h5{
+  padding: 5px;
+  font-size: 20px;
+}
+
+pre{
+  background-color: rgba(132, 0, 255, 0.116);
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 2px solid rgb(255, 0, 255);
 }

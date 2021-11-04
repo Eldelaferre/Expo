@@ -21,3 +21,8 @@ https://u201000130.blogspot.com/2012/06/campos-de-accion-soap-y-rest.html
 https://www.hostinger.mx/tutoriales/que-es-json
 
 https://codingornot.com/01-xml-lo-basico-en-menos-de-30-minutos
+
+
+
+Librerias js
+https://cdnjs.com/

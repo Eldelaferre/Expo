@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style1.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js"
+    integrity="sha512-MFn8OyBl1+xHPFpbyXJjYrUFSPOIznR5zo8sBN6eSF35K/F/PqSo3EqFfXHqhMzhQdr8z6dMsCEyIjDjBPy+4w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <title>Json</title>
 </head>
 <div class="caja">
@@ -18,9 +22,9 @@
           <div class="container nav_container">
             <div class="logo">
               <img src="imagenes/archivo-xml.png" />
-              <h2 class="logo_name">
+              <h1 class="logo_name">
                 Exposición XML, JSON Y SOAP<span class="point">.</span>
-              </h2>
+              </h1>
             </div>
             <div class="links">
               <li><a href="index.html" class="link">Inicio</a></li>
@@ -44,7 +48,12 @@
         </div>
       </div>
 
-      <h4>Json</h4>
+      <section class="registro1">
+        <article>
+          <h2>Json</h2>
+        </article>
+      </section>
+
       <section class="registro">
         <img src="imagenes/macbook-gd8aa84215_640.jpg" alt="" />
         <div class="caja1">
@@ -93,19 +102,48 @@
             política “mismo - origen” (same - origin).</p>
 
         </div>
-        <div class="caja1">
-          <h3>Sintaxis</h3>
-          <p>Hay dos elementos centrales en un objeto JSON: claves (Keys) y valores (Values).</p>
-          <p> - Las Keys deben ser cadenas de caracteres (strings). Como su nombre en español lo indica, estas contienen
-            una secuencia de caracteres rodeados de comillas.
-          </p>
-          <p> - Los Values son un tipo de datos JSON válido. Puede tener la forma de un arreglo (array), objeto, cadena
-            (string), booleano, número o nulo.</p>
+        <div class="caja2">
+          <div class="caja1">
 
-          <p>Un objeto JSON comienza y termina con llaves {}. Puede tener dos o más pares de claves/valor dentro, con
-            una coma para separarlos. Así mismo, cada key es seguida por dos puntos para distinguirla del valor.</p>
+
+            <p>Hay dos elementos centrales en un objeto JSON: claves (Keys) y valores (Values).</p>
+            <p> - Las Keys deben ser cadenas de caracteres (strings). Como su nombre en español lo indica, estas
+              contienen
+              una secuencia de caracteres rodeados de comillas.
+            </p>
+            <p> - Los Values son un tipo de datos JSON válido. Puede tener la forma de un arreglo (array), objeto,
+              cadena
+              (string), booleano, número o nulo.</p>
+
+            <p>Un objeto JSON comienza y termina con llaves {}. Puede tener dos o más pares de claves/valor dentro, con
+              una coma para separarlos. Así mismo, cada key es seguida por dos puntos para distinguirla del valor.</p>
+          </div>
         </div>
 
+      </section>
+      <section class="registro1">
+        <article>
+          <h3>Sintaxis JSON</h3>
+          <p>
+          <pre class="prettyprint">
+            {"ciudad":"Nueva York", "país":"Estados Unidos"}</pre>
+          </p>
+          <p>Aquí tenemos dos pares de clave/valor: ciudad y país son las claves; Nueva York y Estados Unidos son los
+            valores.</p>
+          <h4>Tipos de valores</h4>
+          <p>Como se mencionaba antes, los valores contienen un tipo de datos JSON válido, como:</p>
+          <h5>Array</h5>
+          <p>Un valor de un array puede contener objetos JSON, lo que significa que utiliza el mismo concepto de par
+            clave/valor. Por ejemplo</p>
+          <p>
+          <pre>
+            "estudiantes": [
+            {"primerNombre":"Tom", "Apellido":"Jackson"},
+            {"primerNombre":"Linda", "Apellido":"Garner"},
+            {"primerNombre":"Adam", "Apellido":"Cooper"}
+            ]</pre>
+          </p>
+        </article>
       </section>
       <section class="registro video">
 
