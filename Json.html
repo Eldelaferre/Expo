@@ -136,12 +136,90 @@
           <p>Un valor de un array puede contener objetos JSON, lo que significa que utiliza el mismo concepto de par
             clave/valor. Por ejemplo</p>
           <p>
-          <pre>
+          <pre class="prettyprint">
             "estudiantes": [
             {"primerNombre":"Tom", "Apellido":"Jackson"},
             {"primerNombre":"Linda", "Apellido":"Garner"},
             {"primerNombre":"Adam", "Apellido":"Cooper"}
             ]</pre>
+          </p>
+          <p>En este caso, la información entre corchetes es un array, que tiene tres objetos.</p>
+          <h5>Objeto</h5>
+          <p>Un objeto contiene una clave y un valor. Hay dos puntos después de cada clave y una coma después de cada
+            valor, que también distingue a cada objeto. Ambos están entre comillas.</p>
+          <p>El objeto, como valor, debe seguir la misma regla que un objeto común. Ejemplo:</p>
+          <p>
+          <pre>
+              "empleados": {"nombre":"Tom", "apellido":"Jackson"}</pre>
+          </p>
+          <p>Aquí, empleados es la clave, mientras que todo lo que está dentro de las llaves es el objeto.</p>
+          <h5>Strings</h5>
+          <p>
+            Un string (conocido en español como cadena de caracteres) es una secuencia establecida de cero o más caracteres Unicode. Está encerrado entre dos comillas dobles.
+          </p>
+          <p>Este ejemplo muestra que Tom es un string ya que es un conjunto de caracteres dentro de una comilla doble.</p>
+          <p>
+            <pre>
+              "Primer Nombre":"Tom"</pre>
+          </p>
+          <h5>Número</h5>
+          <p>El número en JSON debe ser un número entero o un punto flotante, como</p>
+          <p>
+            <pre>
+              {"Edad":"30"}</pre>
+          </p>
+          <h5>Booleano</h5>
+          <p>Puedes usar verdadero o falso como valor, de la siguiente manera:</p>
+          <p>
+            <pre>
+              {"Casado":"false"}</pre>
+          </p>
+          <h5>Nulo</h5>
+          <p>Es para mostrar que no hay información.</p>
+          <p>
+            <pre>
+              {"Tipo de sangre":"null"}</pre>
+          </p>
+          <h3>Datos JSON almacenados</h3>
+          <p>Continuando con esta explicación acerca de qué es JSON, pasemos a hablar de que hay dos formas de almacenar datos JSON: objeto y vector. El primero se ve así:</p>
+          <p>
+            <pre>
+              {
+              "nombre":"Tom",
+              "apellido":"Jackson",
+              "género":"masculino"
+              }</pre>
+          </p>
+          <p>
+            Las llaves indican que es un objeto JSON. Implica tres pares clave/valor que están separados por comas.
+          </p>
+          <p>
+            En cada par, tienes las claves (nombre, apellido y género) seguidas de dos puntos para distinguirlos de los valores (Tom, Jackson, masculino).
+          </p>
+          <p>
+            Los valores en este ejemplo son strings. Por eso también están entre comillas, similares a las claves.
+          </p>
+          <h3>Usando vectores</h3>
+          <p>
+            Otro método para almacenar datos es un vector (array). Échale un vistazo a éste ejemplo:
+          </p>
+          <p>
+            <pre>
+                {
+                "nombre":"Tom",
+                "apellido":"Jackson",
+                "género":"masculino",
+                "hobby":["fútbol", "lectura", "natación"]
+                }</pre>
+          </p>
+          <p>
+            Lo que diferencia esto del método anterior es el cuarto par clave/valor. Hobby es la clave y hay varios valores (fútbol, ​​lectura, natación) entre corchetes, que representan un vector.
+          </p>
+          <p>
+            Puede ser útil cuando se combina con JSONP para superar el problema entre dominios. Este proceso funciona utilizando lo que se denomina devoluciones de llamada (callbacks), que solicitarán un elemento específico del vector sin obtener un error “del mismo origen” (same-origin)
+          </p>
+          <p>
+            Y afortunadamente, un Array también admite bucles, lo que te permite ejecutar comandos repetidos para buscar múltiples datos, haciendo que el proceso sea más rápido y efectivo.
           </p>
         </article>
       </section>

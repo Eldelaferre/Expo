@@ -221,7 +221,9 @@ h5{
 }
 
 pre{
-  background-color: rgba(132, 0, 255, 0.116);
+  font-size: 30px;
+  text-align: left;
+  background-color: rgba(0, 247, 255, 0.219);
   padding: 10px;
   border-radius: 10px;
   border-left: 2px solid rgb(255, 0, 255);
