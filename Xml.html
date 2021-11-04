@@ -25,7 +25,7 @@
                             <li><a href="Xml.html" class="link">Que es Xml?</a></li>
                             <li><a href="Json.html" class="link">Que es JSON?</a></li>
                             <li><a href="" class="link">Que es SOAP?</a></li>
-                            
+
                         </div>
                     </div>
                 </nav>
@@ -47,9 +47,9 @@
 
             <section class="registro1">
                 <article>
-                  <h2>XML</h2>
+                    <h2>XML</h2>
                 </article>
-              </section>
+            </section>
             <section class="registro">
                 <img src="imagenes/coding-g7c8de9afa_640.jpg" alt="">
                 <div class="caja1">
@@ -69,27 +69,86 @@
                 <article>
                     <h3>Sintaxis de XML</h3>
                     <p>
-                        En XML utilizamos puramente etiquetas para almacenar información (también llamadas elementos). Usualmente es necesario tener una etiqueta de apertura y una de cierre:
+                        En XML utilizamos puramente etiquetas para almacenar información (también llamadas elementos).
+                        Usualmente es necesario tener una etiqueta de apertura y una de cierre:
                     </p>
                     <p>
-                     <pre>< elemento>Información.< /elemento></pre>
+                    <pre>< elemento>Información.< /elemento></pre>
                     </p>
                     <p>
                         Aunque también es posible tener etiquetas con autocierre:
                     </p>
                     <p>
-                        <pre>< elemento/></pre>
+                    <pre>< elemento/></pre>
                     </p>
                     <p>
-                        La información es almacenada jerárquicamente, así pues en el siguiente ejemplo, tenemos que la etiqueta < raiz> es «padre» de la etiqueta < intermedia> y, a su vez, < intermedia> es «padre» de < interna>:
+                        La información es almacenada jerárquicamente, así pues en el siguiente ejemplo, tenemos que la
+                        etiqueta < raiz> es «padre» de la etiqueta < intermedia> y, a su vez, < intermedia> es «padre»
+                                    de < interna>:
                     </p>
                     <p>
-                        <pre>
+                    <pre>
                             < raiz>
                                 < intermedia>
                                     < interna/>
                                 < /intermedia>
                             < /raiz></pre>
+                    </p>
+                    <p>
+                        Nota: a este agrupamiento jerárquico de datos también se le conoce como árbol XML.
+                    </p>
+                    <p>
+                        Un archivo XML usualmente está acompañado de una sección de código llamada prólogo o
+                        declaración. Esta siempre debe de ir al inicio del cúmulo de datos, si es que la necesitamos
+                        usar. En ella se especifica la versión de XML en la que está escrito el código (version), la
+                        codificación utilizada (encoding) y, de ser preciso, la información externa necesaria para el
+                        análisis gramatical (standalone). Solamente es obligatorio agregar prólogo cuando utilizamos XML
+                        1.1, en XML 1.0 su uso es opcional. Generalmente luce así:
+                    </p>
+                    <p>
+                    <pre>< ?xml version="1.0" encoding="UTF-8"?></pre>
+                    </p>
+                    <p>
+                        Por defecto la codificación utilizada es UTF-8. La necesidad de información externa se señala de
+                        esta manera:
+                    </p>
+                    <p>
+                    <pre>< ?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?></pre>
+                    </p>
+                    <p>
+                        En este caso yes especifica que el documento no necesita información externa ya que es capaz de
+                        funcionar por si mismo.
+                    </p>
+                    <p>
+                        Cabe señalar que XML no tiene palabras reservadas.
+                    </p>
+                    <h3>Ejemplos de XML</h3>
+                    <p>
+                        Supongamos que tenemos un pequeño negocio de venta de videojuegos nuevos y usados, y estamos
+                        almacenando una lista con detalles de los juegos en nuestro catálogo:
+                    </p>
+                    <p>
+                    </p>
+                    <pre>
+                    < negocio>
+                        < videojuego estado="nuevo">
+                            < titulo>Dragon Quest IX< /titulo>
+                            < desarrolladora>Level 5< /desarrolladora>
+                        < /videojuego>
+                    < /negocio>
+                    </pre>
+                    <p>
+                        En el ejemplo anterior utilizamos jerarquía para almacenar información. La raíz de los datos es
+                        la etiqueta < negocio>; luego tenemos un elemento con un atributo en la etiqueta < videojuego> y
+                                el atributo estado=»nuevo»; finalmente, las etiquetas < titulo> y < desarrolladora>
+                                        contienen información en forma de texto.
+                    </p>
+                    <h3>¿Cómo utilizar archivos XML?</h3>
+                    <p>
+                        En esta entrada revisamos de forma rápida los conceptos básicos para entender y crear tus
+                        propios archivos XML. En entradas posteriores de esta serie continuaremos estudiando conceptos
+                        muy prácticos (pero no tan básicos) del lenguaje. Si tienes alguna pregunta, no dudes en
+                        escribirla en la sección de comentarios ¡Hasta la próxima! See ya!
                     </p>
                 </article>
             </section>
